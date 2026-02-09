@@ -3,21 +3,21 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3c-ccg.github.io/lds-jws2020/contexts/v1/"
   ],
-  "id": "did:web:raw.githubusercontent.com:{Repository Owner}:{Repository}:{branch}",
+  "id": "did:web:raw.githubusercontent.com:VerenaPa:gaia-x:main",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:{GitHub Profile Name}:{Repository}:{branch}#{A unique ID for this verification method}",
+      "id": "did:web:raw.githubusercontent.com:VerenaPa:gaia-x:main #{A unique ID for this verification method}",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "{Replace with your JWK}",
-        "e": "{Replace with your JWK}",
+        "n": "5rmgVQCxheTkf-V-44RsMjSUMdmVJWOB6-TnFIWjpdDrWAXwSUHv7BTXqel5laGZS3cmBj_uyGTV4DTJPXPTOHAZh98SZtp-Oe_lyDdcpsdchWIHvbRjtqAKJxqs-exeZ4JqXTU3nZNy25yQXuY2LhqpKM7d0C9cD-eaP1DwnvHOfqEQwwe78w6ADn8dK_ymJNjdCriAUXH7srgDgkCJ2CE1_8lzXvjXupDWL3OS2ycL2XuLCSwtwAolAfWb61cEILXRcajb-uFTDEzzyNpUWaTYZ7quj772mFL8YdOSUESo3cMWSFXcThtC9jXXtbK9o0iAyd_DQa4VK3eSKkjfEQ",
+        "e": "AQAB",
         "alg": "RS256",
-        "x5u": "https://raw.githubusercontent.com/{GitHub Profile Name}/{Repository}/{branch}/{fileName}.pem"
+        "x5u": "https://raw.githubusercontent.com/VerenaPa/gaia-x/gaia-x/cert.pem"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:raw.githubusercontent.com:{GitHub Profile Name}:{Repository}:{branch}#{A unique ID for this verification method}"
+    "did:web:raw.githubusercontent.com:VerenaPa:gaia-x:main #{A unique ID for this verification method}"
   ]
 }
